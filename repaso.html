@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Repaso de HTML">
+    <meta name="keywords" content="etiqueta, atributo, HTML, listas, tablas, enlaces">
+    <title>Repaso HTML</title>
+</head>
+<body>
+    <!-- Imágenes -->
+     <h2> Imágenes </h2>
+     <img id="img" src="Image/1.Fblthp-Bluer.png" alt="Felipe el losteado" width="500" title="El Felipe">
+     <br>
+     <hr>    
+     <!-- Listas -->
+      <h2> Listas </h2>
+      <h3> Lista Ordenada</h3>
+      <ol type="1" start="5">
+        <li>Julio</li>
+        <li>Carmen</li>
+        <li>Ignacio</li>
+        <li>Elena</li>
+      </ol>
+
+      <h3> Lista no Ordenada </h3>
+      <ul>
+        <li>FC. Barcelona</li>
+        <li>Real Madrid</li>
+        <li>Atlético de Madrid</li>
+      </ul>
+
+      <h3> Lista de definición</h3>
+      <dl>
+        <dt>Termino 1</dt>
+        <dd>Definición 1</dd>
+        <dt>Termino 2</dt>
+        <dd>Definición 2</dd>
+        <dt>Termino 3</dt>
+        <dd>Definición 3</dd>
+      </dl>
+
+      <h3> Listas anidadas</h3>
+      <ul>
+        <li> Carnívoro
+            <ul>
+                <li>León</li>
+                <li>Buitres</li>
+                <li>Hiena</li>
+            </ul>
+        </li>
+        <li> Herbívoro
+            <ul>
+                <li>Cabra</li>
+                <li>Vaca</li>
+            </ul>            
+        </li>
+        <li> Omnívoro
+            <ul>
+                <li>Oso</li>
+                <li>Urraca</li>
+            </ul>            
+        </li>
+      </ul>
+      <br>
+      <hr>
+      <h2> Enlaces </h2>
+      <a href="www.google.com" target="_blank"> Google </a> <br>
+      <a href="contacto.html" target="_self"> Contacto </a> <br>
+      <a href="#img" target="_self"> Arriba </a>
+      <br>
+      <hr>
+
+      <h2> Tablas </h2>
+      <table border="2">
+        <caption> Factura artículos deportivos</caption>
+        <thead>
+            <th> Nombre </th>
+            <th> Precio </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zapatillas</td>
+                <td>35 &euro;</td>
+            </tr>
+            <tr>
+                <td>Camiseta</td>
+                <td>15 &euro;</td>
+            </tr>  
+        </tbody>
+        <tfoot>
+            <tr style="font-weight: bold;">
+                <td>Total</td>
+                <td>50 &euro;</td>
+            </tr>
+        </tfoot>
+      </table>
+
+      <h2> Tablas Combinadas</h2>
+      <table border="2">
+        <thead>
+            <th colspan="4">Precio de las naranjas</th>
+        </thead>
+        <tbody>
+            <tr>
+               <th colspan="2" rowspan="4"> Datos Analizados</th> 
+               <th>Provincia</th>
+               <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Málaga</td>
+                <td>0,54&euro;</td>
+            </tr>
+            <tr>
+                <td>Granada</td>
+                <td>0,45&euro;</td>
+            </tr>  
+            <tr>
+                <th>Promedio</th>
+                <th>0,5&euro;</th>
+            </tr>          
+        </tbody>
+
+      </table>
+</body>
+</html>
