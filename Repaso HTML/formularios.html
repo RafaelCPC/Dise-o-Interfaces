@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="prueba.js"></script>
     <title>Formularios | Repaso</title>
 </head>
 <body>
@@ -17,7 +18,63 @@
         <label for="comentario">Comentario</label> <br> <br>
         <textarea cols="20" rows="8" name="comentario" placeholder="Pon un comentario"></textarea> <br> <br>
         <input type="submit" value="Enviar">
- 
-    </form>
+        <br>
+        <br>
+        <!-- Nuevos imputs -->
+         <label for="email">Email:</label>
+         <input id="email" type="email" name="email" placeholder="ejemplo@gmail.com..."> <br> <br>
+         <label for="url">URL:</label>
+         <input id="url" type="url" name="url" placeholder="url..."> <br> <br>
+         <label for="fecha">Fecha: </label>
+         <input id="fecha" type="date" name="fecha">  <br> <br>
+         <label for="hora"> Hora: </label>
+         <input id="hora" type="time" name="hora"> <br> <br>
+         <label for="num"> Número: </label>
+         <input id="hora" type="number" name="num" step="0,1"> <br> <br>
+         <label for="rango">Rango: </label>
+         <input id="rango" type="range" value="10" name="rango" max="100" min="0"> <br> <br>
+         <label for="color">Color: </label>
+         <input id="color" type="color" name="color" value="#FF0000"> <br> <br>
+         
+         <!-- Con html 5 ya no tenemos que hacer input type. Podemos hacer directamente button type-->
+          <button type="reset"> Borra</button>
+          <button type="submit"> Enviar </button> <!-- Tienen que estar dentro del formulario. Si no, no sabe donde enviarlo-->
+          <button type="button" onclick="hola()">Pa hacer cosillas</button>
+
+          <br> <br>
+          <label >Opciones: </label> <br> <br>
+          <input id="opcion1" type="checkbox" name="opcion1" value="yes" checked>
+          <label for="opcion1">Opción 1</label> <br> <br>
+          <input id="opcion2" type="checkbox" name="opcion2" value="yes" >
+          <label for="opcion2">Opción 2</label> <br> <br>
+          <input id="opcion3" type="checkbox" name="opcion3" value="yes" checked>
+          <label for="opcion3">Opción 3</label> <br> <br>
+
+          <button type="submit">Enviar</button> <br> <br>
+
+          <!-- Radio -->
+         <label for="radio">Opciones: </label> <br> <br>
+         <input type="radio" name="opciones" id="opcionr1" value="1" checked>
+         <label for="opcionr1">Opción 1</label> <br> <br>
+         <input type="radio" name="opciones" id="opcionr2" value="2">
+         <label for="opcionr2">Opción 2</label> <br> <br>         
+         <input type="radio" name="opciones" id="opcionr3" value="3">
+         <label for="opcionr3">Opción 3</label> <br> <br>
+
+         <!-- Lista desplegable-->
+          <label  for="selec"> Selección: </label> <br> <br>
+          <select size="1" name="opcionesL">
+            <option value="0" selected disabled> -- Selecciona una opción -- </option> 
+            <option value="1" > Opción 1 </option> 
+            <option value="2" > Opción 2 </option> 
+            <option value="3" > Opción 3 </option> 
+        </select>     <br> <br>
+        <!-- Indicadores de valores -->
+         <label for="progreso"> Progreso: </label>
+         <progress id="progreso" value="10" max="100"></progress> <br> <br> <!-- se usa para la barra de descarga por ejemplo. No tiene minimo-->
+         <label for="metro"> Medida: </label>
+         <meter name="metro" min="10" value="30" max="100"></meter> <br> <br> <!-- Saca medidas: la batería...-->
+
+        </form>
 </body>
 </html>
