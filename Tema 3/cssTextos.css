@@ -1,0 +1,33 @@
+@font-face {
+    font-family: fuente;
+    src: url(fuente/BitcountInk-VariableFont_CRSV\,ELSH\,ELXP\,SZP1\,SZP2\,XPN1\,XPN2\,YPN1\,YPN2\,slnt\,wght.ttf);
+}
+#p1{
+    text-align: right;
+    text-decoration: overline wavy blue;
+    word-spacing: 1.25rem;
+}
+#p2{
+    text-align: left;
+    text-decoration: dotted line-through coral;
+    letter-spacing: 0.625rem;
+}
+#p3{
+    text-transform: capitalize;
+}
+h1{
+    font-variant: small-caps; /* versalitas */
+}
+#parrafo{
+    font-weight: bold; /* bold */
+    font-style: italic;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#fuente{
+    font-family: fuente;
+}
+#lista1 {
+    list-style-type:circle;
+    /* list-style-image: url(../Image/1.Fblthp-Bluer.png); */
+}

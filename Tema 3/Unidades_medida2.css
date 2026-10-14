@@ -1,0 +1,15 @@
+/*
+    El html no sabe calcular el height 80% de la caja
+    Por eso podemos poner lo siguiente:
+
+*{
+    height: 100%;
+}
+*/
+
+.caja{
+    width: 50vw; /* es igual que 50% */
+    height: 80vh; /* antes era 80% */
+    background-color: aqua;
+    border: 1px solid black;
+}

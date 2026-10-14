@@ -1,0 +1,37 @@
+*{
+    color: blue;
+}
+h1 {
+    font-size: 50px;
+}
+.Uno {
+    background-color: gray;
+}
+.Dos{
+    background-color: yellow;
+}
+#parrafo1{
+    border: 1px solid black;
+}
+#parrafo2{
+    border: 1px solid red;
+    color: green;
+}
+ul li {
+    color: aquamarine;
+}
+h2, h3{
+    border: 1px solid green;
+}
+p > a {
+    background-color: yellow;
+}
+p + div {
+    border: 1px solid blue;
+}
+a[target] {
+    color: chocolate;
+}
+a[target="_blank"] {
+    border: 1px solid green;
+}

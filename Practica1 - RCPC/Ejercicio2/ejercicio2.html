@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rafael Coin">
+    <meta name="description" content="practica 2. Ejercicio 2. Curso de especialización en Inteligencia Artificial y Big Data">
+    <meta name="keywords" content="ejercicio 2"
+    <title>Curso de Especialización en Inteligencia Artificial y Big Data</title>
+</head>
+<body>
+    <h1> Curso de Especialización en Inteligencia Artificial y Big Data</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <label for="nombre"> Nombre: </label>
+            <input type="text" name="nombre" id="nombre" tabindex="0" required> <br> <br>
+
+            <label for="apellidos"> Apellidos: </label>
+            <input type="text" name="apellidos" id="apellidos" required> <br> <br>
+
+            <label for="dni"> DNI: </label>
+            <input type="text" name="dni" id="dni" required> <br> <br>
+
+            <label for="nacimiento"> Fecha de nacimiento: </label>
+            <input type="date" name="nacimiento" id="nacimiento"> <br> <br>
+
+            <label for="correo"> Correo electrónico: </label>
+            <input type="email" name="correo" id="correo" required> <br> <br>
+
+            <label for="direccion">Dirección: </label> <br>
+            <textarea name="direccion" id="direccion" cols="50" rows="3"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend> Formación previa</legend>
+
+            <label for="titulacion">Titulación:</label>
+            <select id="titulacion" name="titulacion">
+                <option value="daw">Desarrollo de Aplicaciones Web</option>
+                <option value="dam">Desarrollo de Aplicaciones Multiplataforma</option>
+                <option value="asir">Administración de Sistemas Informáticos en Red</option>
+            </select> <br> <br>
+
+            <label for="anno"> Año de finalización: </label>
+            <input type="number" name="finalizacion" id="finalizacion" min="1980" max="2026"> <br> <br>
+
+            <label for="nota"> Nota media: </label>
+            <input type="number" name="nota" id="nota" min="0" max="10" step="0.1"> <br> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend> Conocimientos tecnológicos </legend>
+            
+            <input type="checkbox" value="java" name="conocimientos" id="java">
+            <label for="java">Java</label> <br> 
+
+            <input type="checkbox" value="python" name="conocimientos" id="python">
+            <label for="python">Python</label> <br>
+
+            <input type="checkbox" value="javascript" name="conocimientos" id="javascript">
+            <label for="javascript">JavaScript</label> <br>
+
+            <input type="checkbox" value="sql" name="conocimientos" id="sql">
+            <label for="sql">SQL</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Nivel de programación</legend>
+
+            <input type="radio" value="basico" name="nivel" id="basico">
+            <label for="basico">Básico</label> <br>
+
+            <input type="radio" value="intermedio" name="nivel" id="intermedio">
+            <label for="intermedio">Intermedio</label> <br>
+
+            <input type="radio" value="avanzado" name="nivel" id="avanzado">
+            <label for="avanzado">Avanzado</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferencias del curso</legend>
+
+            <label for="horas">Horas semanales disponibles: </label>
+            <input type="range" max="40" min="5" name="horas" id="horas"> <br> <br>
+
+            <label for="color">Color del perfil: </label>
+            <input type="color" name="color" id="color"> <br> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Documentación</legend> <br> 
+
+            <label for="carta"> Carta de motivación: </label> <br> <br>
+            <textarea name="carta" id="carta" cols="60" rows="8"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend> Confirmación</legend>
+
+            <input type="checkbox" id="condiciones" name="condiciones" required>
+            <label for="condiciones">Acepto las condiciones</label> <br>
+
+            <input type="checkbox" id="datos" name="datos" required>
+            <label for="datos">Autorizo el tratamiento de mis datos</label>
+        </fieldset>
+
+        <h2> Estado de la solicitud </h2>
+
+        <label for="progreso">Progreso de la inscripción: </label>
+        <progress id="progreso" name="progreso" value="80" max="100"></progress> <br> <br>
+
+        <button type="submit" name="enviar" id="enviar">Enviar solicitud</button>
+
+        <button type="reset" name="borrar" id="borrar">Borrar solicitud</button>
+    </form>
+</body>
+</html>

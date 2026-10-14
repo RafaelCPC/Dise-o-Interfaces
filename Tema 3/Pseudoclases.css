@@ -1,0 +1,23 @@
+ul li:first-child{
+    background-color:aquamarine;
+}
+/*
+Lo de arriba no es lo mismo que:
+ul:first-child{}
+*/
+ul li:last-child{
+    background-color:antiquewhite;
+}
+ul li:nth-child(even){ /* odd lo admite también o un número */
+    background-color:salmon;
+}
+a:hover{
+    background-color:cadetblue;
+}
+button:active{
+    background-color: coral;
+}
+input:focus{
+    background-color: gray;
+    box-shadow: 5px 10px 5px gray;
+}
