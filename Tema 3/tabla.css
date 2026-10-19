@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+table{
+    border: 1px solid blue;
+    border-collapse: separate; /* para quitar los bordes dobles */
+    border-spacing: 15px; /* Para alejar los bordes entre sí */
+    caption-side: bottom; /* Título abajo */
+    width: 100vw;
+}
+td, th{
+    border: 1px solid blue;
+    height: 60px;
+    empty-cells: hide;
+}
+td{
+    text-align: center;
+}
+tr td:nth-child(2){
+    text-align: left;
+}

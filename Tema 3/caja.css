@@ -1,0 +1,13 @@
+.caja{
+    border: 3px solid chocolate;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px 10px 15px 10px;
+    font-weight: bold;
+    background-color: rgba(235, 219, 200, 0.5);
+    box-shadow: 10px 15px 5px gray;
+    columns: 2;
+    column-gap: 15px;
+    column-rule: 2px dotted chocolate;
+    text-shadow: 1px 1px chocolate;
+}
