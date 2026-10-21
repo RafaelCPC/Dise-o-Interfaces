@@ -1,0 +1,38 @@
+body{
+    font-family: "Arial";
+}
+
+/* Estilos cuando se visualiza en pantalla */
+
+@media screen {
+    body{
+        background-color: lightblue;
+    }
+    h1 {
+        color: darkblue;
+    }
+    nav{
+        background-color: navy;
+        color: whitesmoke;
+        padding: 15px;
+    }
+}
+
+/* para impresión. No se usa mucho hoy en día */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+    h1{
+        color: black;
+    }
+    nav {
+        display: none;
+    }
+}
+@media (width > 700px) and (width < 1200) { /* También se puede usar max-width y min-width*/
+    nav{
+        padding: 0px;
+    }
+}

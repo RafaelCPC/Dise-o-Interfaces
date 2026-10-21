@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 20px;
+}
+nav{
+    background-color: coral;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#cont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.caja{
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 20%;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+}
+@media (width <= 700px) {
+    nav{
+        flex-direction: column;
+        height: 150px;
+    }
+    a{
+        margin: 10px;
+    }
+    #cont {
+        flex-direction: column;
+    }
+}
