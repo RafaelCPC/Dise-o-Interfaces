@@ -1,0 +1,53 @@
+body{
+    width: 600px;
+}
+p:first-child {
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+p:nth-child(even) {
+    background-color: chocolate;
+    font-size: 1.5rem;
+}
+p:nth-child(2){
+    color: antiquewhite;
+}
+p:nth-child(2) + p > em{
+    color: antiquewhite;
+}
+p:nth-child(4){
+    color: cornflowerblue;
+}
+p:nth-child(4) + p > em{
+    color: cornflowerblue;
+}
+p:nth-child(6){
+    color: wheat;
+}
+p:nth-child(6) + p > em{
+    color: wheat;
+}
+p:nth-child(8){
+    color: chartreuse;
+}
+p:nth-child(8) + p > em{
+    color: chartreuse;
+}
+p:nth-child(10){
+    color: cadetblue;
+}
+p:nth-child(10) + p > em{
+    color: cadetblue;
+}
+p:nth-child(12){
+    color: violet;
+}
+p:nth-child(12) + p > em{
+    color: violet;
+}
+p:nth-child(odd){
+    background-color: gray;
+    border: 3px solid black
+}

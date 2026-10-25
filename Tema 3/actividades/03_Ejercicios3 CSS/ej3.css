@@ -1,0 +1,32 @@
+h1{
+    width: 300px;
+    border: 3px solid blue;
+}
+p{
+    width: 300px;
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+p:nth-child(2){
+    background-color: gray;
+}
+p:nth-child(4){
+    background-color: black;
+}
+p:nth-child(6) {
+    background-color: cyan;
+}
+li {
+    font-weight: bold;
+}
+ul:nth-child(3) > li, ul:nth-child(5) > li {
+    color: red;
+}
+ul:nth-child(3) li:first-child {
+    color: green;
+}
+ul:nth-child(5) li:nth-child(3) {
+    color: green;
+}

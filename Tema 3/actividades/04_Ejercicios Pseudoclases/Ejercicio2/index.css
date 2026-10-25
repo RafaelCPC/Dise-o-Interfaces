@@ -1,0 +1,14 @@
+li{
+    background-color: blue;
+    width: 120px;
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    border: 2px solid red;
+}
