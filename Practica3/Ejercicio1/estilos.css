@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, sans-serif;
+    /* background-color: #f1f5f9; si pongo el estilo aquí sobrescribe todos los background */
+    margin: 0px;
+}
+body{
+    background-color: #f1f5f9;
+}
+header{
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header > h1{
+    margin: 0px;
+}
+header p {
+    font-size: 18px;
+}
+nav{
+    background-color: #457b9d;
+    text-align: center;
+    padding: 12px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 12px;
+}
+nav a:hover{
+    background-color: white;
+    color: #1d3557;
+}
+#actividades{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+.actividad{
+    background-color: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.actividad h2{
+    color: #1d3557;
+}
+.actividad:hover{
+    background-color: #f8fafc;
+}
+article:first-child{
+    border-left: 6px solid #e76f51;
+}
+img + p {
+    font-style: italic;
+    color: #64748b;
+}
+img{
+    width: 220px;
+    height: auto;
+    max-width: fit-content;
+    overflow: hidden;
+}
+ul{
+    list-style: square;
+}
+.actividad a {
+    font-weight: bold;
+    color: #457b9d;
+    text-decoration: none;
+}
+.actividad a:hover{
+    text-decoration: underline;
+}
+a[target="_blank"] {
+    color: #e76f51;
+}
+footer{
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
