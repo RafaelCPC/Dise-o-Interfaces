@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    background-color: coral;
+    border: 1px solid gray;
+    flex-wrap: wrap; /* decide si se reparte en varias lineas o si se mantiene todo en una */
+}
+article{
+    overflow: hidden;
+    align-content: end; /* alinea las diferentes líneas. Funciona con wrap */
+    background-color: indianred;
+    font-size: 1.8rem;
+    padding: 3px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: beige;
+}
+a {
+    background-color: cyan;
+    font-size: 1.8rem;
+    padding: 3px;
+    margin: 5px;
+    text-decoration: none;
+    width: 150px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    background-color: coral;
+    border: 1px solid gray;
+    overflow: hidden;
+    justify-content: space-evenly;  /* alinea en el eje principal */
+}
+span{
+    background-color: indianred;
+    font-size: 1.8rem;
+    padding: 3px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center; /* alinea en el eje secundario */
+    color: white;
+}
+@media(width < 600px){
+    nav{
+        flex-direction: column;
+        width: 100%;
+    }
+    a{
+        width: 98%;
+    }
+}
