@@ -1,0 +1,20 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+    border: 2px solid black;
+    height: 100vh;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+div div {
+    background-color: #7bc6c7;
+    flex-grow: 1;
+    flex-basis: 33%;
+    padding: 10px;
+    margin-top: 2px;
+}

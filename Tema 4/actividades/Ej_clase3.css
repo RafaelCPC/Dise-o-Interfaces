@@ -1,0 +1,12 @@
+div {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    width: 30%;
+    /* flex-grow: 3; */
+}
+p{
+    margin-left:  10px;
+    /* flex-grow: 7; */
+}

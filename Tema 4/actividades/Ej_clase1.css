@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:6px;
+    width: 100vw;
+    /* flex-wrap: wrap; */
+
+    /* Por lo visto el ul también te mete un padding automático */
+    padding: 0px;
+}
+li {
+    background-color: #7bc6c7;
+    /* flex-grow: 1;  Lo quitamos para colocar el último contenedor a la izquierda*/
+    text-align: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li:hover {
+    background-color: beige;
+}
+
+/* Para colocar el último contenedor a la izquierda */
+li:last-child {
+    margin-left: auto;
+}
+@media (width < 550px) {
+    ul{
+        flex-direction: column;
+    }
+}
